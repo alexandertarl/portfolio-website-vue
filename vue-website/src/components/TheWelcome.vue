@@ -10,9 +10,17 @@ import WelcomeItem from './WelcomeItem.vue'
 
   <WelcomeItem>
     <template #heading>Coding Languages Experience</template>
-    Python
-    Java
-    Javascript and Typescript
+    Python  <br/>
+    Java  <br/>
+    Javascript and Typescript  <br/>
     C#
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #heading>Foreign Language Proficiency</template>
+    English - Native Speaker <br/>
+    Korean - Lower Intermediate <br/>
+    German - Upper Beginner <br/>
+    Italian - Soon!
   </WelcomeItem>
 </template>
