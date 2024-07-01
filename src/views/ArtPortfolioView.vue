@@ -1,7 +1,12 @@
 <template>
-    <div class="about">
-      <h1>This is a art page</h1>
-    </div>
+  <main>
+      <h1>My Traditional Art</h1>
+        (images here)
+
+      <br>
+      <h1>My Digital Art</h1>
+        (images here)
+  </main>
   </template>
   
   <style>
@@ -14,3 +19,6 @@
   }
   </style>
   
+  <script setup>
+import WelcomeItem from '../components/WelcomeItem.vue'
+</script>

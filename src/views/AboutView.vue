@@ -1,7 +1,12 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <main>
+  <WelcomeItem>
+    <template #heading>Software Engineering Experience</template>
+    - Python with generative AI <br/>
+    ... (from old cv)
+  </WelcomeItem>
+
+</main>
 </template>
 
 <style>
@@ -13,3 +18,7 @@
   }
 }
 </style>
+
+<script setup>
+import WelcomeItem from '../components/WelcomeItem.vue'
+</script>

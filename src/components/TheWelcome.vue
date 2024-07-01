@@ -5,15 +5,16 @@ import WelcomeItem from './WelcomeItem.vue'
 <template>
   <WelcomeItem>
     <template #heading>Brief Introduction</template>
-    I'm a graduate Software Engineer with a passion for all things coding and spoken/foreign languages. 
+    I'm a graduate Software Engineer with a passion for all things coding as well as foreign languages. 
   </WelcomeItem>
 
   <WelcomeItem>
     <template #heading>Coding Languages Experience</template>
-    Python  <br/>
-    Java  <br/>
-    Javascript and Typescript  <br/>
-    C#
+    Python - Longest exposure and practice with  <br/>
+    Java - Used the most at University <br/>
+    Javascript and Typescript - During a few projects at University <br/>
+    SQL - Lots of practice <br/>
+    C# - Some practice as learnt on my own
   </WelcomeItem>
 
   <WelcomeItem>
@@ -21,6 +22,5 @@ import WelcomeItem from './WelcomeItem.vue'
     English - Native Speaker <br/>
     Korean - Lower Intermediate <br/>
     German - Upper Beginner <br/>
-    Italian - Soon!
   </WelcomeItem>
 </template>
