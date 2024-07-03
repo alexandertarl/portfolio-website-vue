@@ -1,6 +1,20 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import '@fortawesome/fontawesome-free/css/all.css';
+
+const shareOnGitHub = () => {
+  window.open('https://github.com/alexandertarl');
+};
+
+const shareOnLinkedIn = () => {
+  window.open('https://www.linkedin.com/in/alexander-tarling-576613230/');
+};
+
+const copyEmail = () => {
+  navigator.clipboard.writeText("tarlingalex@gmail.com");
+  alert("Email Address Copied");
+}
 </script>
 
 <template>
@@ -10,13 +24,29 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <HelloWorld msg="Hi, It's Alex!" />
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/projects">Projects</RouterLink>
-        <RouterLink to="/art-portfolio">Art Portfolio</RouterLink>
-        <RouterLink to="/languages">Languages</RouterLink>
-      </nav>
+      <div>
+        <nav>
+          <RouterLink to="/">Home</RouterLink>
+          <RouterLink to="/about">About</RouterLink>
+          <RouterLink to="/projects">Projects</RouterLink>
+          <RouterLink to="/art-portfolio">Art Portfolio</RouterLink>
+          <RouterLink to="/languages">Languages</RouterLink>
+        </nav>
+      </div>
+
+      <div class="social-share-buttons">
+        <button @click="shareOnGitHub" class="btn btn-github">
+          <i class="fab fa-github"></i>
+        </button>
+        <button @click="shareOnLinkedIn" class="btn btn-linkedin">
+          <i class="fab fa-linkedin"></i>
+        </button>
+        <button @click="copyEmail" class="btn btn-email">
+          <i class="fa-solid fa-envelope"></i> 
+          <p>tarlingalex@gmail.com</p>
+        </button>
+      </div>
+
     </div>
   </header>
 
@@ -85,4 +115,45 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
+
+.social-share-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-github {
+  background-color: #333;
+  color: white;
+}
+
+.btn-linkedin {
+  background-color: #0077b5;
+  color: white;
+}
+
+.btn-email {
+  background-color: #a21a38;
+  color: white;
+}
+
+.btn p {
+  font-size: 14px;
+  margin-left: 6px; 
+}
+
+.btn i {
+  /* margin-right: 5px; */
+  font-size: 20px;
+}
+
 </style>
