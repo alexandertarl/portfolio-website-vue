@@ -1,1 +1,0 @@
-import{_ as e,o,c as t,a as s}from"./index-2ekPSQZg.js";const c={},a={class:"about"},r=s("h1",null,"This is a art page",-1),_=[r];function n(i,d){return o(),t("div",a,_)}const f=e(c,[["render",n]]);export{f as default};
