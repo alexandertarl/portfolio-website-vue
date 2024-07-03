@@ -1,1 +1,0 @@
-import{o,c as a,b as t,d as e}from"./index-Svb9RTfQ.js";const r=e("h1",null,"My Traditional Art",-1),s=e("br",null,null,-1),l=e("h1",null,"My Digital Art",-1),u={__name:"ArtPortfolioView",setup(n){return(c,i)=>(o(),a("main",null,[r,t(" (images here) "),s,l,t(" (images here) ")]))}};export{u as default};
