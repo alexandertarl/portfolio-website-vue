@@ -13,6 +13,7 @@ import WelcomeItem from './WelcomeItem.vue'
     Python - Longest exposure and practice with  <br/>
     Java - Used the most at University <br/>
     Javascript and Typescript - During a few projects at University <br/>
+    HTML and CSS - Used frequently throughout previous projects <br/>
     SQL - Lots of practice <br/>
     C# - Some practice as learnt on my own
   </WelcomeItem>
