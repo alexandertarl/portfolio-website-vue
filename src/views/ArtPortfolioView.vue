@@ -1,11 +1,16 @@
 <template>
   <main>
-      <h1>My Traditional Art</h1>
-        (images here)
 
-      <br>
-      <h1>My Digital Art</h1>
-        (images here)
+  <WelcomeItem>
+    <h1>My Art Portfolio</h1>
+    <h2 class="green">Traditional Art</h2>
+    images
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <h2 class="green">Digital Art</h2>
+    images
+  </WelcomeItem>
   </main>
   </template>
   

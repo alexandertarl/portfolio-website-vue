@@ -8,7 +8,9 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      This is my portfolio website coded in Vue.
+      This is my portfolio website coded at 
+      <a href="https://github.com/alexandertarl/portfolio-website-vue">GitHub Link</a>, 
+      but it is still under some construction and improvements! 
     </h3>
   </div>
 </template>

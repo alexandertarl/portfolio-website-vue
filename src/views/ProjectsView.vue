@@ -1,18 +1,18 @@
 <template>
   <main>
-  <h1>University Projects</h1>
   <WelcomeItem>
-    <template #heading>Dissertation Group Project (2024)</template>
+    <h1>University Projects</h1>
+    <h2 class="green">Dissertation Group Project (2024)</h2>
     Team of 6... 
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #heading>Engineering Data... (2023)</template>
+    <h2 class="green">Engineering Data... (2023)</h2>
     Team of 5... 
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #heading>...</template>
+    <h2 class="green">...</h2>
     ...
   </WelcomeItem>
 </main>

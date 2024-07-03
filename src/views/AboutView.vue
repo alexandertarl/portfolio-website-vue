@@ -1,9 +1,10 @@
 <template>
   <main>
   <WelcomeItem>
-    <template #heading>Software Engineering Experience</template>
-    - Python with generative AI <br/>
-    ... (from old cv)
+    <h1 class="green">Software Engineering Experience</h1>
+    (Mostly from Univeristy) <br><br>
+    <li>Python with generative AI</li>
+    <li>test</li>
   </WelcomeItem>
 
 </main>

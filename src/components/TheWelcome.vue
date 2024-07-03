@@ -4,12 +4,12 @@ import WelcomeItem from './WelcomeItem.vue'
 
 <template>
   <WelcomeItem>
-    <template #heading>Brief Introduction</template>
+    <h1 class="green">Brief Introduction</h1>
     I'm a graduate Software Engineer with a passion for all things coding as well as foreign languages. 
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #heading>Coding Languages Experience</template>
+    <h1 class="green">Coding Languages Experience</h1>
     Python - Longest exposure and practice with  <br/>
     Java - Used the most at University <br/>
     Javascript and Typescript - During a few projects at University <br/>
@@ -18,7 +18,7 @@ import WelcomeItem from './WelcomeItem.vue'
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #heading>Foreign Language Proficiency</template>
+    <h1 class="green">Foreign Language Proficiency</h1>
     English - Native Speaker <br/>
     Korean - Lower Intermediate <br/>
     German - Upper Beginner <br/>
