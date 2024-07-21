@@ -42,7 +42,8 @@
     <li>
       Deployed using Docker
     </li>
-    <a href="https://cu-chatbot.kavin.rocks/">Link to the deployed project </a>
+    <a href="https://cu-chatbot.kavin.rocks/">Link to the deployed project </a> <br>
+    <a href="https://github.com/alexandertarl/dissertation-cardiffuni-chatbot">GitHub Repository link to my contribution</a>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -85,6 +86,7 @@
     <li>
       Used JUnit for testing the application
     </li>
+    <a href="https://github.com/alexandertarl/book-review-android-app">GitHub Repository link to my contribution</a>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -105,6 +107,7 @@
     <li>
       Used MariaDB to update the database and get relevant records to post to the website
     </li>
+    <a href="https://github.com/alexandertarl/year2-client-project">GitHub Repository link to my contribution</a>
   </WelcomeItem>
 </main>
 </template>

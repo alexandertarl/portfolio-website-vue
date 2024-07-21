@@ -23,6 +23,12 @@
     <li>Heartstopper Volume 1 German Edition</li>
     <li>Nick und Charlie (Nick and Charlie, German Edition)</li>
     <li>Die Geschichte von Herrn Sommer (The Story of Mr Sommer)</li>
+    <li>Heartstopper Volume 2 German Edition</li>
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <h2 class="green">Italian/Italiano</h2>
+    My next language, and I have just started learning in July 2024.
   </WelcomeItem>
 
   </main>
